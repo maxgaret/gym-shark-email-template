@@ -72,17 +72,92 @@ p {
     font-weight: 400;
     letter-spacing: 0;
     direction: ltr;
-   
+      
+}
+.low-content {
+    background-color: #fff;
+    border-radius: 0;
+    color: #000;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.column {
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 5px 5px 5px;
+    vertical-align: top;
+}
+
+
+.pad {
+    padding-left:40px ;
+    padding-right: 40px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+
+}
+
+h2 {
+    color: #000;
+    direction: ltr;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700px;
+    letter-spacing: normal;
+    line-height: 120%;
+    text-align: center;
+}
+
+.two-columns {
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: top;
+}
+
+.column h3 p {
+    margin: 0;
+    width: 50%;
+    vertical-align: top;
     
 }
 
-.two_columns {
-    margin: 0 auto;
-    width: 50%;
-    float: left;
-   
+tr td {
+  
 }
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 0%;
     
+}
+
+
+
+.image_block {
+    border-collapse: collapse;
+}
+
+.btn {
+    border: 2px solid black;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #000;
+    text-transform: uppercase;
+}
+
+
   @media screen and (max-inline-size: 600px) {
     .nav-spacer {inline-size: 10px!important;}}
 
@@ -97,7 +172,7 @@ p {
 
 <!-- BORDER -->
 <tr>
-    <td bgcolor="#f4f4f4">
+    <td style="background-color: #e6e4e4;">
         <table width="100%" >
             <center><p style="font-family: 'Montserrat'; font-weight: 700; text-transform: uppercase; font-size:12px; line-height: 16px;"><span><img src="assets/car.png" alt="" width="12" height="10"> </span>Free standard shipping over $75 </p></center>
         </table>
@@ -297,40 +372,92 @@ p {
 </tr>
 
 <!-- BORDER -->
-
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td style="padding: 0x 20px;">
+                    <h1>HOW DO I BUILD MY WISHLIST?</h1>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
 <!-- TWO COLUMN SECTION -->
 <tr>
     <td>
         <table width="100%">
             <tr>
                 <td>
-                    <table class="two_columns">
+                    <table class="two-columns" width="100%">
                         <tr>
-                            <td>
+                            <td style="line-height: 120%; padding: 20px 40px; border-collapse: collapse; word-break: break-all; display: inline-block; word-spacing: normal;">
                                 <table class="column">
                                     <tr>
                                         <td>
-                                            <h2>STEP 1:</h2>
-                                            <p>Download the <span><a href="#">Gymshark app.</a></span></p>
-                                            <h2>STEP 2:</h2>
-                                            <p>Log in or create an account.</p>
-                                            <h2>STEP 3:</h2>
-                                            <p>Click the heart on the things you want to grab.</p>
-                                            <h2>STEP 4:</h2>
-                                            <p>Add your wishlist to your bag once the sale starts.</p>
-                                            <h2>STEP 5:</h2>
-                                            <p>Checkout then sit back and relax</p>
+                                            <h3 align="center">step 1:</h3>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <p align="center">Lorem ipsum dolor sit amet.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h3 align="center">step 2:</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p align="center">Lorem ipsum dolor sit amet.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h3 align="center">step 3:</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p align="center">Lorem ipsum dolor sit amet.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h3 align="center">step 4:</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p align="center">Lorem ipsum dolor sit amet.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h3 align="center">step 5:</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p align="center">Lorem ipsum dolor sit amet.</p>
+                                        </td>
+                                    </tr>
+                                    
                                 </table>
-                            </td>
+                            <td style="line-height: 0%; padding: 10px; border-collapse: collapse; word-break: break-all;">
                                 <table class="column">
                                     <tr>
                                         <td>
-                                            <a href="#"><img src="assets/app.gif" alt=""></a>
+                                            <a href="#"><img src="assets/app.gif" alt="" style="display: block; height: auto; max-width: 260px; width: 100%;"></a>
                                         </td>
                                     </tr>
+                                    
+                                    
                                 </table>
+                                
+                               
+                                
                             </td>
                         </tr>
                     </table>
@@ -339,10 +466,96 @@ p {
         </table>
     </td>
 </tr>
-
-			
 <!-- FOOTER SECTION -->
-			
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td style="padding: 40px;">
+                    <a href="#" class="btn">CREATE MY WISHLIST</a>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td style="padding:  0 60px;">
+                    <h1>WHAT IF AN ITEM I BUY ISN'T QUITE RIGHT?</h1>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td style="padding: 0 60px;">
+                    <p>Hey, things don't always work out. That's why we've got our fuss-free returns process to help get things sent back to us. </p>
+                    <p>*Purchases made between 16th October 2023 and 1st January 2023 can be returned up until 31st January 2024 following our extended returns policy.</p>
+                    <p>*All items marked FINAL SALE on our US & Canadian stores in the Gymshark Black Friday Sale will not be eligible for returns, refunds, exchanges or store credit.</p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td style="padding:  0 60px;">
+                    <h1>MY QUESTION HASN'T BEEN ANSWERED HERE?</h1>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td style="padding:  0 60px;">
+                    <p>Never fear, there’s plenty more answers where these came from over on Gymshark Central.</p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td style="padding: 40px;">
+                    <a href="#" class="btn">take me there</a>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td>
+                    <table class="banner">
+                        <tr>
+                            <td>
+                                <a href="#"><img src="assets/bottom.png" alt="" width="100%"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
 
 		</table> <!-- End Main Class -->
 
